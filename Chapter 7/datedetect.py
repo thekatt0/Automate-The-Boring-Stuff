@@ -5,7 +5,7 @@
 import re
 import pyperclip
 
-text = '''Speaking of dates did you know 32/14/2020 is Valentine's Day? I really didn't know. The more you learn the the more you know. When I was born on that dark day 1/9/1989 I don't know if it was dark. The moon was new. The weather was normal california weather. And then in 10/01/2019 it was Halloween!'''
+text = str(pyperclip.paste()) 
 
 #empty lists
 matches = []
